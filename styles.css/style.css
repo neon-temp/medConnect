@@ -1,65 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.icon{
-    display: flex;
-    gap:8px;
-    text-align: center;
-    color:rgb(122, 122, 122);
-    margin-left: 450px;
-    margin: 50px;
+.icon {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-left: 450px;
+  margin: 50px;
 }
-.icon-arrow{
-    font-size: 20px;
-     color:rgb(122, 122, 122);
+.icon-arrow {
+  font-size: 20px;
+  color: rgb(122, 122, 122);
 }
-.icon-text{
-    font-size: 16px;
-    font-weight: bold;
-}
-
-
-
-
-
-
-.back{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 448px;
-    height: 883px;
-    border: 1px solid #E1E7EF;
-    border-radius: 10px;
-    gap: 31px;
-    background:#FFFFFF;
-    margin: 41px auto;
- 
+.icon-text {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.signupForm{
-  
-    max-width: 500px;
-    padding: 20px;
-    background: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 25px;
-    font-family: Arial, sans-serif;
-    width: 406px;
-    height: 750px;
-    gap: 24px;
-  
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 448px;
+  height: 883px;
+  border: 1px solid #e1e7ef;
+  border-radius: 10px;
+  gap: 31px;
+  background: #ffffff;
+  margin: 41px auto;
 }
 
+.signupForm {
+  max-width: 500px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px;
+  font-family: Arial, sans-serif;
+  width: 406px;
+  height: 750px;
+  gap: 24px;
+}
 
-#name, #email, #number, #cal, #gender, #password, #confirm, #blood{
-    border-radius: 10px;
+#name,
+#email,
+#number,
+#cal,
+#gender,
+#password,
+#confirm,
+#blood {
+  border-radius: 10px;
 }
 
 elect {
@@ -97,64 +94,58 @@ select option {
 }
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 6px;
-    display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
 }
 
-input,  select {
-    background-color: #F6F9FB;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
-    outline: none;
+input,
+select {
+  background-color: #f6f9fb;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline: none;
 }
-
-
-
 
 .row {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .row .form-group {
-    flex: 1;
+  flex: 1;
 }
-
 
 button {
-    /*width: 406px;*/
-    width: 100%;
-    padding: 12px 16px;
-    gap: 10px;
-    background: #2E80fa;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    height: 44px;
-     margin-top: 20px;
-    margin-bottom: 20px;
-    
+  /*width: 406px;*/
+  width: 100%;
+  padding: 12px 16px;
+  gap: 10px;
+  background: #2e80fa;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 44px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-
-.footer p{
-    text-align: center;
-    margin-bottom: 15px;
-    color: #65758b;
-    font-style: regular;
-    font-size: 14px;
-    font-weight: bold;
-   
+.footer p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #65758b;
+  font-style: regular;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 a{
