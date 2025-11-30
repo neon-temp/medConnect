@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+
+    <title>MedConnect</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="icon">
+      <a href="#" class="icon-arrow"
+        ><ion-icon name="arrow-back-outline"></ion-icon
+      ></a>
+      <p class="icon-text">Back to home</p>
+    </div>
+    <main>
+      <form class="hero">
+        <h2>Welcome Back</h2>
+
+        <p class="login">Login to access your MedConnect account</p>
+        <p><strong>Category</strong></p>
+        <div class="star">
+          <select name="category">
+            <option value="patient">Patient</option>
+            <option value="Doctor">Doctor</option>
+          </select>
+        </div>
+        <label for="email"><strong>Email</strong></label
+        ><br />
+        <div class="star">
+          <input
+            type="text"
+            id="email"
+            placeholder="ella234@gmail.com"
+            required
+          />
+        </div>
+        <div class="star">
+          <label for="password" class="salt"
+            >Password <a href="#" class="text">Forgot password?</a></label
+          >
+          <input type="text" id="password" placeholder="Ellajohn" required />
+        </div>
+        <button class="btn">Login</button>
+
+        <p class="count">
+          Already have an account?
+          <a href="index.html" class="word">Sign up here</a>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
