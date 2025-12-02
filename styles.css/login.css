@@ -107,7 +107,7 @@ select option {
 }
 
 .btn {
-  width: 100%;
+  min-width: 100%;
   /*width: 410px;*/
   padding: 10px;
   color: white;
