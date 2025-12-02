@@ -2,11 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ font-family: "Inter", sans-serif;
+}
+body{
+  background-color: #f0f3f8;
 }
 .hero {
-     backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* For compatibility with Webkit browsers */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(
+    10px
+  ); /* For compatibility with Webkit browsers */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 448px;
   background-color: #ffffff;
@@ -18,7 +23,7 @@
   margin-right: auto;
   padding: 31px 17px 31px 17px;
   line-height: 45px;
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px rgb(228, 226, 226);
   margin-bottom: 50px;
 }
 .login {
@@ -47,27 +52,25 @@ select {
   padding: 10px;
   border-radius: 10px;
   color: rgb(137, 136, 136);
-  background-color:rgb(244, 246, 249);
+  background-color: rgb(244, 246, 249);
   cursor: pointer;
   outline: none;
   transition: 0.3s ease;
 }
 
-
 select:hover {
-    background: linear-gradient(to bottom, #ffffff, #dcdcdc);
+  background: linear-gradient(to bottom, #ffffff, #dcdcdc);
 }
 
 select:focus {
-    border-color: #4A90E2;
-    box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),
-                0 0 6px rgba(74,144,226,0.6);
+  border-color: #4a90e2;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.8),
+    0 0 6px rgba(74, 144, 226, 0.6);
 }
 
-
 select option {
-    padding: 10px;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  padding: 10px;
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
 }
 
 .star {
@@ -127,8 +130,8 @@ a {
   font-size: 14px;
 }
 
-.count{
-   font-weight: bold;
-   font-size: 14px;
-   color: #65758b;
+.count {
+  font-weight: bold;
+  font-size: 14px;
+  color: #65758b;
 }
