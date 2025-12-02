@@ -129,13 +129,15 @@ button {
   margin-bottom: 20px;
 }
 
-.footer p {
-  text-align: center;
-  margin-bottom: 15px;
-  color: #65758b;
-  font-style: regular;
-  font-size: 14px;
-  font-weight: bold;
+
+.footer p{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #65758b;
+   
+    font-size: 14px;
+    font-weight: bold;
+   
 }
 
 a {
