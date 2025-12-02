@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+  background-color: #f0f3f8;
+}
 .hero {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(
@@ -20,7 +23,7 @@
   margin-right: auto;
   padding: 31px 17px 31px 17px;
   line-height: 45px;
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px rgb(247, 246, 246);
   margin-bottom: 50px;
 }
 .login {

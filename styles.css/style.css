@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+  background-color: #f0f3f8;
+}
 .icon {
   display: flex;
   gap: 8px;
