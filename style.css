@@ -133,7 +133,6 @@ button {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD:style.css
 
 .footer p{
     text-align: center;
@@ -143,15 +142,6 @@ button {
     font-size: 14px;
     font-weight: bold;
    
-=======
-.footer p {
-  text-align: center;
-  margin-bottom: 15px;
-  color: #65758b;
-  font-style: regular;
-  font-size: 14px;
-  font-weight: bold;
->>>>>>> dcfdd63e885a0decf9e1e81adef75a0f754bdb9d:styles.css/style.css
 }
 
 a{
@@ -159,7 +149,6 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD:style.css
 /* Glossy select box */
 select {
     width: 100%;
@@ -195,6 +184,3 @@ select option {
     padding: 10px;
     background: linear-gradient(to bottom, #ffffff, #f2f2f2);
 }
-=======
-
->>>>>>> dcfdd63e885a0decf9e1e81adef75a0f754bdb9d:styles.css/style.css
