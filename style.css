@@ -115,7 +115,7 @@ select {
 
 button {
   /*width: 406px;*/
-  width: 100%;
+  min-width: 100%;
   padding: 12px 16px;
   gap: 10px;
   background: #2e80fa;

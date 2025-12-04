@@ -12,8 +12,10 @@
 <body>
 
 <header class="head">
-
-   
+ <div class="hamburger" id="hamburger">
+        &#9776; 
+    </div>
+  
     <a href="landing.html" class="logo-box">
         <img class="logo" src="/assets/Frame 6.png" alt="logo">
         <span>MedConnect</span>
@@ -21,7 +23,7 @@
 
    
     <nav>
-        <ul class="nav-bar">
+        <ul class="nav-bar" id="mobileMenu">
             <li><a href="landing.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
@@ -29,13 +31,14 @@
         </ul>
     </nav>
 
-   
+
     <div class="nav-buttons">
         <a href="/login.html"><button class="login-btn">Login</button></a>
         <a href="/role.html"><button class="signup-btn">Get Started</button></a>
     </div>
-
+  
 </header>
+
 
 
 <div class="main">
@@ -96,5 +99,102 @@ administrators</p>
                  </div>
            </div>
         </section>
+
+        <section class="get-started">
+            <div class="get-started-text">
+                 <h3>How It Works</h3>
+                 <p id="get-started-text-line">Get started in three simple steps</p>
+            </div>
+
+           <div id="omo">
+             <div class="get-started-logo">
+                <img src="/assets/svg.svg" alt="logo">
+                <h3>Choose Your Role</h3>
+                <p>Select whether you're a patient,
+doctor, or hospital administrator</p>
+            </div>
+           
+            
+            <div class="get-started-logo">
+               <img src="/assets/Background (1).svg" alt="logo">
+                <h3>Sign Up</h3>
+                <p>Create your account with your email
+and basic information</p>
+            </div>
+   
+            <div class="get-started-logo">
+              <img src="/assets/Background (2).svg"  alt="logo">
+                <h3>Get Started</h3>
+                <p>Access your Personalized dashboard and start managing your
+health</p>
+            </div>
+           </div>
+
+           <div class="chai">
+              <h3>Ready to Get Started?</h3>
+            <p>Join thousands of patients, doctors, and healthcare professionals
+using MedConnect</p>
+                <a href="#"><button>Create Appointment</button></a>
+           </div>
+        </section>
+<section class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-left">
+            <a href="landing.html" class="end">
+                <img class="LOGO" src="/assets/Frame 6.png" alt="logo">
+                <span>MedConnect</span>
+            </a>
+
+            <p class="kai">Your health, simplified.</p>
+        </div>
+
+        <div class="footer-text">
+
+            <div class="footer-word">
+                <h4>Product</h4>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Security</p>
+            </div>
+
+            <div class="footer-word">
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Careers</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer-word">
+                <h4>Legal</h4>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>HIPAA</p>
+            </div>
+
+        </div>
+
+    </div>
+        <div class="line"></div>
+    <div class="footer-omo">
+        <p>© 2024 MedConnect. All rights reserved.</p>
+    </div>
+
+</section>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+        if (mobileMenu.style.display === "flex") {
+            mobileMenu.style.display = "none";
+        } else {
+            mobileMenu.style.display = "flex";
+        }
+    });
+</script>
+
+
 </body>
 </html>

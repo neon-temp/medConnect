@@ -50,11 +50,40 @@ li, a, button {
     position: sticky;
     top: 0;
     z-index: 1000; 
-  background: rgba(246, 249, 251, 0.6); 
+    background: rgba(246, 249, 251, 0.6); 
     backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    
+    .nav-bar {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .nav-bar li {
+        margin: 10px 0;
+    }
+}
 
 .logo-box {
     display: flex;
@@ -223,6 +252,7 @@ li, a, button {
 }
 
 .get-started-btn {
+    font-weight: 600;
     width: 166;
     height: 44;
     gap: 10px;
@@ -357,4 +387,391 @@ li, a, button {
     opacity: 1;
     line-height: 16px;
    
+}
+
+
+.get-started{
+    
+    padding: 60px 16px;
+    background-color: #F6F9FB;
+}
+
+.get-started-text{
+    text-align: center;
+}
+
+.get-started-text h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #1D283A;
+}
+
+.get-started-text p{
+    opacity: 1;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #65758B;
+}
+
+#omo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    line-height: 30px;
+    margin-top: 70px;
+
+}
+
+#omo .get-started-logo{
+    text-align: center;
+    padding: 32px  24px ;
+    width: 100%;
+    box-shadow: 1px 4px 4px 0px #00000040;
+}
+
+#omo .get-started-logo h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    color: #1D283A;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+#omo .get-started-logo p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #65758B;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.chai{
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    padding: 16px;
+
+}
+
+.chai h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    background: linear-gradient(90deg, #2E80FA 0%, #4CAE4F 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.chai p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    margin: 16px auto 0;
+    max-width: 720px;
+    padding: 0 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #65758B;
+}
+
+.chai button{
+    padding: 12px 16px 12px 16px;
+    gap: 24px;
+    width: 282;
+    height: 44;
+    margin-top: 30px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #2E80FA;
+    color: #F9F9F9;
+    border: none;
+    font-size: 16px;
+    width: 282px;
+    height: 44px;
+    transition: transform 0.3s ease;
+}
+
+.chai button:hover {
+    background-color: #F9F9F9;
+    color: #2E80FA;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+ 
+
+
+.footer {
+    margin-top: 60px;
+    padding: 60px 60px;
+    background-color: #F6F9FB;
+    border-top: 1px solid #e5e9ef;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .end {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    margin: 0; 
+}
+
+
+.footer .end .LOGO {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: #2E80FA;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-top: -5px;
+}
+
+.footer .LOGO:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+}
+
+.footer .end span {
+    color: #1D283A;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -5px;
+    line-height: 20px;
+}
+
+
+.footer-left .kai {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #64748B;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+
+.footer-text {
+    display: flex;
+    padding-right: 250px;
+    gap: 180px;
+}
+
+.footer-word h4 {
+    font-family: "Inter", sans-serif;
+    font-style: Semi Bold;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D283A;
+    margin-bottom: 10px;
+}
+
+.footer-word p {
+    font-size: 15px;
+    color: #65758B;
+    margin: 16px 0;
+    cursor: pointer;
+    font-weight: 400;
+  
+}
+
+.footer-word p:hover {
+    color: #2E80FA;
+}
+
+.line{
+    border-bottom: 1px solid #E5E9EF;
+    margin: 20px;
+}
+.footer-omo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-omo p {
+    font-size: 14px;
+    color: #64748B;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+}
+
+/* ============================
+     MOBILE RESPONSIVE (Phones)
+   ============================ */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .head {
+        padding: 15px 25px;
+    }
+
+    .logo-box {
+        margin-left: 0;
+    }
+
+    .nav-bar {
+        display: none; /* Hide navbar for now (you can add mobile menu later) */
+    }
+
+    .nav-buttons {
+        margin-right: 0;
+        gap: 8px;
+    }
+
+    .login-btn, .signup-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+
+    /* MAIN SECTION */
+    .main {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .left-section {
+        margin: 0;
+        width: 100%;
+    }
+
+    .left-section h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .left-section .text {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .pic {
+        width: 100%;
+        margin: 20px 0;
+        float: none;
+        margin-left: 0;
+    }
+
+
+    /* ABOUT SECTION */
+    .about {
+        margin-top: 0;
+        padding: 40px 16px;
+    }
+
+    .about-cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /* GET STARTED SECTION */
+    #omo {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+    /* CHAI SECTION */
+    .chai h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .chai p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-left {
+        align-items: center;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0;
+        gap: 30px;
+    }
 }
