@@ -1,121 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>medConnect</title>
-    <link rel="stylesheet" href="style.css">
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-     <link rel="stylesheet" href="/styles.css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  </head>
+    <link rel="stylesheet" href="/styles.css/landing.css">
+</head>
+<body>
 
-  <body>
-    <div class="icon">
-      <a href="/role.html" class="icon-arrow"
-        ><ion-icon name="arrow-back-outline"></ion-icon
-      ></a>
-      <p class="icon-text">Back to role selection</p>
+<header class="head">
+ <div class="hamburger" id="hamburger">
+        &#9776; 
     </div>
-    <div>
-      <main>
-        <form>
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter your name"
-              required
-            />
-          </div>
+  
+    <a href="/index.html" class="logo-box">
+        <img class="logo" src="/assets/Frame 6.png" alt="logo">
+        <span>MedConnect</span>
+    </a>
 
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-          </div>
+   
+    <nav>
+        <ul class="nav-bar" id="mobileMenu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-          <div class="form-group">
-            <label for="number">Phone Number</label>
-            <input
-              type="tel"
-              id="number"
-              name="number"
-              placeholder="Enter your phone number"
-              required
-            />
-          </div>
 
-          <div class="row">
-            <div class="form-group">
-              <label for="cal">Date of Birth</label>
-              <input type="date" id="cal" name="cal" required />
+    <div class="nav-buttons">
+        <a href="/login.html"><button class="login-btn">Login</button></a>
+        <a href="/role.html"><button class="signup-btn">Get Started</button></a>
+    </div>
+  
+</header>
+
+
+
+<div class="main">
+    <div class="left-section">
+        <p class="word">Healthcare Made Simple</p>
+        <h1>Your Health,  <span class="omo">Simplified</span></h1>
+        <p class="text">
+            Streamline appointments, manage patient records, and track
+            hospital analytics all in one powerful platform designed
+            for modern healthcare.
+        </p>
+            <div class="buttons">
+        <a href="role.html"><button class="get-started-btn">Get Started</button></a>
+        <a href="login.html"><button class="get-login-btn">Login</button></a>
+            </div>
+    </div>
+
+    
+        <img src="/assets/splash.jpg" alt="Healthcare Illustration" class="pic">
+</div>
+
+        <section class="about">
+            <div class="about-text">
+                 <h2>Everything You Need</h2>
+            <p id="text-line">Comprehensive tools for patients, doctors, and hospital administrators</p>
+            </div>
+           
+
+            <div class="about-cards">
+                 <div class="card">
+                    <img src="/assets/Frame 5.svg" alt="logo">
+                    <h3>Easy Booking</h3>
+                    <p style="line-height: 25px;">Schedule appointments with your
+preferred doctors in just a few
+clicks</p>
+                 </div>
+                                  <div class="card">
+                    <img src="/assets/Frame 5 (1).svg" alt="logo">
+                    <h3>Patient Dashboard</h3>
+                    <p style="line-height: 25px;">Track your health journey with
+comprehensive medical history
+and records</p>
+                 </div>
+
+                                  <div class="card">
+                    <img src="/assets/Frame 5 (2).svg" alt="logo">
+                    <h3>Doctor Analytics</h3>
+                    <p style="line-height: 25px;">Manage your schedule and track
+patient consultation efficiently</p>
+                 </div>
+        
+                                  <div class="card">
+                    <img src="/assets/Frame 5 (3).svg" alt="logo">
+                    <h3>Hospital Metrics</h3>
+                    <p style="line-height: 25px;">Comprehensive analytics and
+insights for hospital
+administrators</p>
+                 </div>
+           </div>
+        </section>
+
+        <section class="get-started">
+            <div class="get-started-text">
+                 <h3>How It Works</h3>
+                 <p id="get-started-text-line">Get started in three simple steps</p>
             </div>
 
-            <div class="form-group">
-              <label for="gender">Gender</label>
-              <select id="gender" name="gender">
-                <option value="">Select</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-              </select>
+           <div id="omo">
+             <div class="get-started-logo">
+                <img src="/assets/svg.svg" alt="logo">
+                <h3>Choose Your Role</h3>
+                <p>Select whether you're a patient,
+doctor, or hospital administrator</p>
             </div>
-          </div>
+           
+            
+            <div class="get-started-logo">
+               <img src="/assets/Background (1).svg" alt="logo">
+                <h3>Sign Up</h3>
+                <p>Create your account with your email
+and basic information</p>
+            </div>
+   
+            <div class="get-started-logo">
+              <img src="/assets/Background (2).svg"  alt="logo">
+                <h3>Get Started</h3>
+                <p>Access your Personalized dashboard and start managing your
+health</p>
+            </div>
+           </div>
 
-          <div class="form-group">
-            <label for="blood">Blood Group (Optional)</label>
-            <select id="blood" name="blood">
-              <option value="">Select blood group</option>
-              <option value="O+">O+</option>
-              <option value="O-">O-</option>
-            </select>
-          </div>
+           <div class="chai">
+              <h3>Ready to Get Started?</h3>
+            <p>Join thousands of patients, doctors, and healthcare professionals
+using MedConnect</p>
+                <a href="#"><button>Create Appointment</button></a>
+           </div>
+        </section>
+<section class="footer">
 
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              placeholder="Enter password"
-              required
-            />
-          </div>
+    <div class="footer-top">
 
-          <div class="form-group">
-            <label for="confirm">Confirm Password</label>
-            <input
-              type="password"
-              id="confirm"
-              name="confirm"
-              placeholder="Confirm password"
-              required
-            />
-          </div>
-          <div class="footer">
-            <button class="btn">Create Account</button>
+        <div class="footer-left">
+            <a href="landing.html" class="end">
+                <img class="LOGO" src="/assets/Frame 6.png" alt="logo">
+                <span>MedConnect</span>
+            </a>
 
-            <p>Already have an account? <a href="login.html">Login here</a></p>
-          </div>
-        </form>
-        <br /><br />
-      </main>
+            <p class="kai">Your health, simplified.</p>
+        </div>
+
+        <div class="footer-text">
+
+            <div class="footer-word">
+                <h4>Product</h4>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Security</p>
+            </div>
+
+            <div class="footer-word">
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Careers</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer-word">
+                <h4>Legal</h4>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>HIPAA</p>
+            </div>
+
+        </div>
+
     </div>
-  </body>
+        <div class="line"></div>
+    <div class="footer-omo">
+        <p>© 2024 MedConnect. All rights reserved.</p>
+    </div>
+
+</section>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+        if (mobileMenu.style.display === "flex") {
+            mobileMenu.style.display = "none";
+        } else {
+            mobileMenu.style.display = "flex";
+        }
+    });
+</script>
+
+
+</body>
 </html>
