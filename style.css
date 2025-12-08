@@ -117,12 +117,14 @@ li, a, button {
 
 
 .nav-bar{
-     
-    list-style: none; 
+    list-style: none;
+           margin-left: 350px;
+   
+    
 }
 .nav-bar li {
     display: inline-block;
-    
+ 
 }
 .nav-bar a {
     padding: 10px 16px; 
@@ -145,10 +147,9 @@ li, a, button {
 }
 
 
-.nav-buttons {
-    display: flex;
-    gap: 15px;
-    margin-right: -90px;
+.nav-icons {
+    font-weight: 600;
+    font-size: 2em;
 }
 
 .login-btn, .signup-btn {
