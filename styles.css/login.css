@@ -9,9 +9,7 @@ body{
 }
 .hero {
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(
-    10px
-  ); /* For compatibility with Webkit browsers */
+  -webkit-backdrop-filter: blur(10px); 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 448px;
   background-color: #ffffff;

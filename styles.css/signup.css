@@ -24,6 +24,26 @@ body {
   font-weight: bold;
 }
 
+.form-word{
+    text-align: start;
+    margin-top: 15px;
+     margin-bottom: 15px;
+     line-height: 30px;
+}
+
+#shuu{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1D283A;
+  margin-bottom: 15px;
+ 
+}
+
+.signup{
+  margin-bottom: 15 px;
+  color: #65758B; 
+}
+
 form {
   border: none;
   max-width: 500px;
@@ -31,10 +51,10 @@ form {
   background: #fafafa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 25px auto;
+  margin: 55px auto;
   font-family: Arial, sans-serif;
   width: 406px;
-  height: 750px;
+  height: 790px;
   gap: 24px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -42,7 +62,7 @@ form {
 }
 
 #name,
-#email,
+#email
 #number,
 #cal,
 #gender,
