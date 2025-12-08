@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 body {
   background-color: #f0f3f8;
-  height: 750px;
+  /* height: 750px; */
 }
 /* .med{
     gap:43px;
@@ -53,25 +54,26 @@ body {
 }
 .film {
   display: flex;
-  width: 1024px;
+  width: 900px;
   margin: 0 auto;
-  height: 403px;
+  height: 290px;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
+  gap: 80px;
 }
 .asset {
   width: 450px;
-  height: 403px;
+  height: 320px;
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 2px 4px 4px 0px #00000033;
   text-align: center;
 }
 img {
-  width: 89px;
-  height: 85;
+  width: 70px;
+  height: 70px;
   border-radius: 20px;
-  margin-top: 75px;
+  margin-top: 30px;
   background-color: #eaf2fe;
 }
 .assign {

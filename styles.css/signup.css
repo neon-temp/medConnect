@@ -40,7 +40,7 @@ body {
 }
 
 .signup{
-  margin-bottom: 15 px;
+  margin-bottom: 15px;
   color: #65758B; 
 }
 
@@ -70,6 +70,7 @@ form {
 #confirm,
 #blood {
   border-radius: 10px;
+  
 }
 
 select {

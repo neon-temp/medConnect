@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
-body{
+body {
   background-color: #f0f3f8;
 }
 .hero {
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 448px;
   background-color: #ffffff;
@@ -21,7 +21,7 @@ body{
   margin-right: auto;
   padding: 31px 17px 31px 17px;
   line-height: 45px;
-  box-shadow: 0 0 1px rgb(228, 226, 226);
+  /* box-shadow: 0 0 1px rgb(228, 226, 226); */
   margin-bottom: 50px;
 }
 .login {
@@ -80,14 +80,15 @@ select option {
   border: 1px solid black;
   color: rgb(137, 136, 136);
   border-radius: 10px;
-  background-color: rgb(244, 246, 249);
+  background-color: #fafafa;
 }
 
 .text {
-  margin-left: 200px;
+  margin-left: 180px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(25, 115, 219);
+  font-size: 15px;
 }
 
 #password {
@@ -96,32 +97,38 @@ select option {
   border: 1px solid black;
   color: rgb(137, 136, 136);
   border-radius: 10px;
-  background-color: rgb(244, 246, 249);
+  background-color: #fafafa;
+  
 }
 .salt {
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-left: 18px;
+}
+.word {
+  margin-left: 18px;
 }
 
-.btn {
+#btn {
   min-width: 100%;
-  /*width: 410px;*/
+  /* display: block; */
   padding: 10px;
   color: white;
   border-radius: 10px;
   border: 1px solid #e1e7ef;
-  margin-top: 30px;
   background: #2e80fa;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  /* text-align: center; */
+  margin-top: 30px;
 }
 
 .count {
   text-align: center;
 }
-a {
+.up {
   text-decoration: none;
   color: rgb(25, 115, 219);
   font-weight: bold;
