@@ -26,18 +26,19 @@
       <p class="icon-text">Back to home</p>
     </div>
     <main>
-      <form class="hero">
+      <form action="/dashboard.html" method="get" class="hero">
         <h2>Welcome Back🥳</h2>
 
         <p class="login">Login to access your MedConnect account</p>
-        <p><strong>Category</strong></p>
+        <p><strong class="word">Category</strong></p>
         <div class="star">
           <select name="category">
+            <option value="Select option">Select option</option>
             <option value="patient">Patient</option>
             <option value="Doctor">Doctor</option>
           </select>
         </div>
-        <label for="email"><strong>Email</strong></label
+        <label for="email"><strong class="word">Email</strong></label
         ><br />
         <div class="star">
           <input
@@ -51,13 +52,13 @@
           <label for="password" class="salt"
             >Password <a href="#" class="text">Forgot password?</a></label
           >
-          <input type="text" id="password" placeholder="Ellajohn" required />
+          <input type="text" id="password" placeholder="Enter your password" required />
         </div>
-        <button class="btn">Login</button>
-
+        <button type="submit" id="btn">Login</button>
+        
         <p class="count">
           No account yet?
-          <a href="signup.html" >Sign up here</a>
+          <a href="signup.html" class="up">Sign up here</a>
         </p>
       </form>
     </main>
