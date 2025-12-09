@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>medConnect</title>
-    <link rel="stylesheet" href="styles.css/signup.css" />
+    <link rel="stylesheet" href="styles.css/signup.css">
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -13,13 +13,10 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <link rel="stylesheet" href="styles.css/signup.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+     <link rel="stylesheet" href="styles.css/signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -29,56 +26,26 @@
       ></a>
       <p class="icon-text">Back to role selection</p>
     </div>
+    
+      <main>
+        
+        <form>
+            <div class="form-word">
+            <h2 id="shuu">Hello👋</h2>
 
-    <main>
-      <form>
-        <div class="form-word">
-          <h2 id="shuu">Hello👋</h2>
-
-          <p class="signup">SignUp for your MedConnect account!!</p>
-        </div>
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required
-            autofocus
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="number">Phone Number</label>
-          <input
-            type="tel"
-            id="number"
-            name="number"
-            placeholder="Enter your phone number"
-            required
-          />
-        </div>
-
-        <div class="row">
-          <div class="form-group">
-            <label for="cal">Date of Birth</label>
-            <input type="date" id="cal" name="cal" required />
+       <p class="signup">SignUp for your MedConnect account!!</p>
+    </div>
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required autofocus
+            />
           </div>
 
           <div class="form-group">
-<<<<<<< HEAD
             <label for="email" style="margin-top:10px;">Email</label>
             <input
               type="email"
@@ -129,60 +96,38 @@
               <option value="AB-">AB-</option>
               <option value="O+">O+</option>
               <option value="O-">O-</option>
-=======
-            <label for="gender">Gender</label>
-            <select id="gender" name="gender">
-              <option value="">Select</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
->>>>>>> b8f8c9227afaa113111fa5ad22b721c40cd5bccf
             </select>
           </div>
-        </div>
 
-        <div class="form-group">
-          <label for="blood">Blood Group (Optional)</label>
-          <select id="blood" name="blood">
-            <option value="">Select blood group</option>
-            <option value="A+">A+</option>
-            <option value="A-">A-</option>
-            <option value="B+">B+</option>
-            <option value="B-">B-</option>
-            <option value="AB+">AB+</option>
-            <option value="AB-">AB-</option>
-            <option value="O+">O+</option>
-            <option value="O-">O-</option>
-          </select>
-        </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password"
+              required
+            />
+          </div>
 
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter password"
-            required
-          />
-        </div>
+          <div class="form-group">
+            <label for="confirm">Confirm Password</label>
+            <input
+              type="password"
+              id="confirm"
+              name="confirm"
+              placeholder="Confirm password"
+              required
+            />
+          </div>
+          <div class="footer">
+            <button class="btn">Create Account</button>
 
-        <div class="form-group">
-          <label for="confirm">Confirm Password</label>
-          <input
-            type="password"
-            id="confirm"
-            name="confirm"
-            placeholder="Confirm password"
-            required
-          />
-        </div>
-        <div class="footer">
-          <button class="btn">Create Account</button>
-
-          <p>Already have an account? <a href="login.html">Login here</a></p>
-        </div>
-      </form>
-      <br /><br />
-    </main>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+          </div>
+        </form>
+        <br /><br />
+      </main>
+    </div>
   </body>
 </html>
