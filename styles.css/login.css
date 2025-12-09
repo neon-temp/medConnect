@@ -153,12 +153,12 @@ a {
   }
 
   .icon {
-    margin-left: 0;
+    margin-left: 5;
     justify-content: start;
   }
 
   .text {
-    margin-left: 0;
+    margin-left: 5;
     display: block;
     text-align: right;
   }
