@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>medConnect</title>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      
+        <script src="app.js/script.js" defer></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -21,6 +26,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+        <div id="splash-screen">
+
+      <img src="/assets/Frame 74.svg">
+    </div>
+
     <header class="head">
     
       <a href="/index.html" class="logo-box">
@@ -43,7 +53,7 @@
         >
         <a href="login.html"><button id="gloginBtn" class="glogin-btn">Login</button></a>
         <div class="nav-icons">
-          <ion-icon name="contrast-outline" id="lightTheme"></ion-icon>
+          <ion-icon name="contrast-outline" id="themeToggle"></ion-icon>
         </div>
       </div>
         <div class="hamburger" id="hamburger">&#9776;</div>
@@ -191,27 +201,6 @@
         <p>© 2024 MedConnect. All rights reserved.</p>
       </div>
     </section>
-    <script>
-      const hamburger = document.getElementById("hamburger");
-      const mobileMenu = document.getElementById("mobileMenu");
-      const gloginBtn = document.getElementById("gloginBtn");
-
-      hamburger.addEventListener("click", () => {
-        if (mobileMenu.style.display === "flex") {
-          mobileMenu.style.display = "none";
-
-          if (gloginBtn.style.display === "flex") {
-          mobileMenu.style.display = "none";
-        }
-            
-
-        } else {
-          mobileMenu.style.display = "flex";
-          mobileMenu.style.flexDirection = 'row';
-          mobileMenu.style.gap = '8px';
-          
-        }
-      });
-    </script>
+   
   </body>
 </html>
