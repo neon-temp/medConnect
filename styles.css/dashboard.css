@@ -273,6 +273,10 @@ header {
   font-style: medium;
   line-height: 20px;
 }
+.note{
+text-decoration: none;
+color: #ffffff;
+}
 .point {
   margin-top: 17px;
   margin-left: 26px;

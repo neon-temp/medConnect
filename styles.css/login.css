@@ -84,7 +84,7 @@ select option {
 }
 
 .text {
-  margin-left: 200px;
+  margin-left: 170px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(25, 115, 219);
@@ -101,7 +101,12 @@ select option {
 .salt {
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-left: 18px;
+
+}
+strong{
+   margin-left: 18px;
 }
 
 .btn {
@@ -150,6 +155,7 @@ a {
   #password {
     width: 100%;
     max-width: 100%;
+    
   }
 
   .icon {
@@ -158,9 +164,10 @@ a {
   }
 
   .text {
-    margin-left: 0;
+    margin-left: 130px;
     display: block;
     text-align: right;
+
   }
 
   
@@ -181,7 +188,6 @@ a {
     font-size: 16px;
     margin-left: 5px;
   }
-
   .icon-arrow {
     font-size: 18px;
     margin-left: 5px;
