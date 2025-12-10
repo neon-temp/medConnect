@@ -162,6 +162,8 @@ a {
     display: block;
     text-align: right;
   }
+
+  
 }
 
 @media (max-width: 480px) {
@@ -169,6 +171,10 @@ a {
     width: 92%;
     padding: 20px 12px;
     line-height: 47px;
+  }
+
+  .login{
+    line-height: 25px;
   }
 
   .icon-text {
