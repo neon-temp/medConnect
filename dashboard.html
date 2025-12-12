@@ -23,7 +23,9 @@
   <body>
     <header>
       <div class="image">
-      <a href="index.html" > <img src="/assets/Frame 7.svg" alt="logo" class="logo" /></a>
+        <a href="index.html">
+          <img src="/assets/Frame 7.svg" alt="logo" class="logo"
+        /></a>
         <p class="text">MedConnect</p>
       </div>
       <div class="iconic">
@@ -46,27 +48,28 @@
                 <p class="doc">Dr. Uche John</p>
                 <button class="firm">Confirmed</button>
               </div>
-              <p class="type">Cardiologist</p>
-              <div class="icon">
-                <div class="lend">
-                  <ion-icon
-                    name="calendar-clear-outline"
-                    class="ion"
-                  ></ion-icon>
-                  <p class="todo">Dec 20, 2025</p>
+              <div id="secret">
+                <p class="type">Cardiologist</p>
+                <div class="icon">
+                  <div class="lend">
+                    <ion-icon
+                      name="calendar-clear-outline"
+                      class="ion"
+                    ></ion-icon>
+                    <p class="todo">Dec 20, 2025</p>
+                  </div>
+                  <div class="lend">
+                    <ion-icon name="time-outline" class="ion"></ion-icon>
+                    <p class="todo">10:30 am</p>
+                  </div>
                 </div>
-                <div class="lend">
-                  <ion-icon name="time-outline" class="ion"></ion-icon>
-                  <p class="todo">10:30 am</p>
+                <div class="line">
+                  <ion-icon name="location-outline" class="ion"></ion-icon>
+                  <p class="room">Room 2025, Building A</p>
                 </div>
               </div>
-              <div class="line">
-                <ion-icon name="location-outline" class="ion"></ion-icon>
-                <p class="room">Room 2025, Building A</p>
-              </div>
-
-              <button class="btn1">View Details</button>
-              <button class="btn2">Cancel</button>
+              <button onclick="showText()" class="btn1">View Details</button>
+              <button onclick="hideText()" class="btn2">Cancel</button>
             </div>
           </div>
           <div class="third">
@@ -128,7 +131,9 @@
             <p class="point">Quick Actions</p>
             <div class="wrote">
               <img src="/assets/Frame 45.svg" alt="notepad" />
-             <p ><a href="/appointment.html" class="note">Book Appointment</a></p>
+              <p>
+                <a href="/appointment.html" class="note">Book Appointment</a>
+              </p>
             </div>
             <div class="write">
               <img src="/assets/Frame 45 (1).svg" alt="clock" />
@@ -159,6 +164,14 @@
           </div>
         </div>
       </div>
+      <script>
+        function showText() {
+          document.getElementById("secret").style.display = "block";
+        }
+        function hideText() {
+          document.getElementById("secret").style.display = "none";
+        }
+      </script>
     </main>
   </body>
 </html>

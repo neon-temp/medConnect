@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
-body{
+body {
   background-color: #f0f3f8;
 }
 .hero {
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 448px;
   background-color: #ffffff;
@@ -97,7 +97,6 @@ select option {
   color: rgb(137, 136, 136);
   border-radius: 10px;
   background-color: rgb(244, 246, 249);
-
 }
 .salt {
   font-weight: bold;
@@ -136,9 +135,6 @@ a {
   color: #65758b;
 }
 
-
-
-
 @media (max-width: 768px) {
   .hero {
     width: 90%;
@@ -164,8 +160,6 @@ a {
     display: block;
     text-align: right;
   }
-
-  
 }
 
 @media (max-width: 480px) {
@@ -175,7 +169,7 @@ a {
     line-height: 47px;
   }
 
-  .login{
+  .login {
     line-height: 25px;
   }
 

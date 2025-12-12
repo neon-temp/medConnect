@@ -24,24 +24,23 @@ body {
   font-weight: bold;
 }
 
-.form-word{
-    text-align: start;
-    margin-top: 15px;
-     margin-bottom: 15px;
-     line-height: 30px;
+.form-word {
+  text-align: start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 30px;
 }
 
-#shuu{
+#shuu {
   font-size: 35px;
   font-weight: bold;
-  color: #1D283A;
+  color: #1d283a;
   margin-bottom: 15px;
- 
 }
 
-.signup{
+.signup {
   margin-bottom: 15px;
-  color: #65758B; 
+  color: #65758b;
 }
 
 form {
@@ -62,15 +61,13 @@ form {
 }
 
 #name,
-#email
-#number,
+#email #number,
 #cal,
 #gender,
 #password,
 #confirm,
 #blood {
   border-radius: 10px;
-  
 }
 
 select {
@@ -150,15 +147,13 @@ button {
   margin-bottom: 20px;
 }
 
+.footer p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #65758b;
 
-.footer p{
-    text-align: center;
-    margin-bottom: 15px;
-    color: #65758b;
-   
-    font-size: 14px;
-    font-weight: bold;
-   
+  font-size: 14px;
+  font-weight: bold;
 }
 
 a {
@@ -166,27 +161,24 @@ a {
   text-decoration: none;
 }
 
-
 @media (max-width: 768px) {
   .icon {
-    margin: 30px auto;       
-    justify-content: start; 
+    margin: 30px auto;
+    justify-content: start;
   }
 
   form {
     width: 90%;
-    height: auto;          
+    height: auto;
     padding: 20px 15px;
     margin: 40px auto;
-   
   }
 
   .row {
-    flex-direction: column;  
+    flex-direction: column;
     gap: 0px;
   }
 }
-
 
 @media (max-width: 480px) {
   .icon-text {
@@ -220,7 +212,7 @@ a {
   }
 
   #shuu {
-    font-size: 28px; 
+    font-size: 28px;
   }
 
   .signup {

@@ -13,64 +13,65 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    />
   </head>
   <body>
-     <div class="icon">
+    <div class="icon">
       <a href="/role.html" class="icon-arrow"
         ><ion-icon name="arrow-back-outline"></ion-icon
       ></a>
       <p class="icon-text">Back to Role Selection</p>
     </div>
     <main class="form">
-    <p class="book">Book New Appointment</p>
-    <p class="fill">Fill in the details to schedule your appointment</p>
+      <p class="book">Book New Appointment</p>
+      <p class="fill">Fill in the details to schedule your appointment</p>
 
-    <form action="/dashboard.html" method="get" class="fort">
-      <label for="name" class="text">Full Name</label><br />
-      <input type="text" id="name" placeholder="Full Name" required /><br />
+      <form action="/dashboard.html" method="get" class="fort">
+        <label for="name" class="text">Full Name</label><br />
+        <input type="text" id="name" placeholder="Full Name" required /><br />
 
-      <label for="Department" class="text">Department</label><br />
-      <select name="Department" class="Department">
-        <option value="Select Department">Select Department</option>
-        <option value="Cardiologist">Cardiologist</option>
-        <option value="General Physician">General Physician</option>
-        <option value="Dermatologist">Dermatologist</option></select
-      ><br />
-      
-      <label for="date" class="text">Preferred Date</label><br>
-      <input type="date" id="date" value="date" required /><br>
+        <label for="Department" class="text">Department</label><br />
+        <select name="Department" class="Department">
+          <option value="Select Department">Select Department</option>
+          <option value="Cardiologist">Cardiologist</option>
+          <option value="General Physician">General Physician</option>
+          <option value="Dermatologist">Dermatologist</option></select
+        ><br />
 
-      <label for="time" class="text">Preferred Time</label><br>
-      <input type="time" id="time" value="time" required /><br>
+        <label for="date" class="text">Preferred Date</label><br />
+        <input type="date" id="date" value="date" required /><br />
 
-      <label for="doctor" class="text">Preferred Doctor</label><br>
-      <select name="doctor" id="doctor">
-        <option value="Select Doctor">Select Doctor</option>
-        <option value=" Dr Brown">Dr. Brown</option>
-        <option value="Dr Davis">Dr. Davis</option>
-        <option value="Dr Garcia">Dr Garcia</option>
-        <option value="Dr Johnson">Dr Johnson</option>
-        <option value="Dr Lee">Dr Lee</option>
-        <option value="Dr Patel">Dr Patel</option>
-        <option value="Dr Smith">Dr Smith</option>
-        <option value="Dr Taylor">Dr Taylor</option>
-        <option value="Dr Wilson">Dr Wilson</option></select
-      ><br />
-      <label for="textarea" class="text">Reason for Visit</label><br />
-      <textarea
-        id="textarea"
-        name="textarea"
-        placeholder="Please describe your symptoms or reason for visit....."
-      ></textarea>
-      <div class="button">
-      <input type="submit" value="Confirm Appointment" class="btn" />
-      <input type="submit" value="Cancel" class="btn2" />
-      </div>
-    </form>
+        <label for="time" class="text">Preferred Time</label><br />
+        <input type="time" id="time" value="time" required /><br />
+
+        <label for="doctor" class="text">Preferred Doctor</label><br />
+        <select name="doctor" id="doctor">
+          <option value="Select Doctor">Select Doctor</option>
+          <option value=" Dr Brown">Dr. Brown</option>
+          <option value="Dr Davis">Dr. Davis</option>
+          <option value="Dr Garcia">Dr Garcia</option>
+          <option value="Dr Johnson">Dr Johnson</option>
+          <option value="Dr Lee">Dr Lee</option>
+          <option value="Dr Patel">Dr Patel</option>
+          <option value="Dr Smith">Dr Smith</option>
+          <option value="Dr Taylor">Dr Taylor</option>
+          <option value="Dr Wilson">Dr Wilson</option></select
+        ><br />
+        <label for="textarea" class="text">Reason for Visit</label><br />
+        <textarea
+          id="textarea"
+          name="textarea"
+          placeholder="Please describe your symptoms or reason for visit....."
+        ></textarea>
+        <div class="button">
+          <input type="submit" value="Confirm Appointment" class="btn" />
+          <input type="submit" value="Cancel" class="btn2" />
+        </div>
+      </form>
     </main>
     <!-- <input type="submit" value="Book Appointment" /> -->
   </body>

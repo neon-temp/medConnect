@@ -190,6 +190,9 @@ header {
   line-height: 20px;
   color: #1d283a;
 }
+#secret {
+  display: none;
+}
 .third {
   display: flex;
   flex-direction: column;
@@ -273,9 +276,9 @@ header {
   font-style: medium;
   line-height: 20px;
 }
-.note{
-text-decoration: none;
-color: #ffffff;
+.note {
+  text-decoration: none;
+  color: #ffffff;
 }
 .point {
   margin-top: 17px;
@@ -353,26 +356,43 @@ color: #ffffff;
 /* TABLETS & MEDIUM SCREENS */
 @media (max-width: 1024px) {
   .parent {
-    flex-direction: column;  
+    flex-direction: column;
     gap: 20px;
   }
 
-  .second, .third, .fourth, .two, .three, .wrote, .write {
-    width: 90%;             
+  .second,
+  .third,
+  .fourth,
+  .two,
+  .three,
+  .wrote,
+  .write {
+    width: 90%;
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .back, .after, .text, .doc, .appoint, .app, .point, .num {
-    font-size: 90%;          
+  .back,
+  .after,
+  .text,
+  .doc,
+  .appoint,
+  .app,
+  .point,
+  .num {
+    font-size: 90%;
   }
 
-  .icarl, .dates,  .iconic, .icon, .line, .lend {
-    flex-wrap: wrap;          
+  .icarl,
+  .dates,
+  .iconic,
+  .icon,
+  .line,
+  .lend {
+    flex-wrap: wrap;
     justify-content: space-between;
   }
-
 
   header {
     padding: 0 20px;
@@ -401,36 +421,56 @@ color: #ffffff;
     margin-bottom: 10px;
   }
 
-  .second, .third, .fourth, .two, .three, .wrote, .write {
+  .second,
+  .third,
+  .fourth,
+  .two,
+  .three,
+  .wrote,
+  .write {
     width: 95%;
-    height: auto;             
+    height: auto;
     padding: 10px;
   }
 
-  .icarl, .dates, .icon, .line, .lend {
+  .icarl,
+  .dates,
+  .icon,
+  .line,
+  .lend {
     flex-direction: column;
-   gap: 5px;
-   align-items: flex-start;
-   
+    gap: 5px;
+    align-items: flex-start;
   }
 
-   .iconic{
+  .iconic {
     flex-direction: column;
-   gap: 0px;
-   align-items: end;
-   
-   }
-  .doc, .appoint, .app, .point, .num, .type, .todo, .font, .work, .time {
-    font-size: 14px;          
+    gap: 0px;
+    align-items: end;
+  }
+  .doc,
+  .appoint,
+  .app,
+  .point,
+  .num,
+  .type,
+  .todo,
+  .font,
+  .work,
+  .time {
+    font-size: 14px;
   }
 
-  .firm, .btn1, .btn2 {
+  .firm,
+  .btn1,
+  .btn2 {
     width: auto;
     font-size: 12px;
     padding: 6px 10px;
   }
 
-  .wrote, .write {
+  .wrote,
+  .write {
     width: 100%;
     font-size: 13px;
     padding: 8px;
