@@ -41,6 +41,16 @@ body {
   color: rgb(122, 122, 122);
 }
 
+.nav-icons {
+  font-weight: 600;
+  font-size: 2em;
+  cursor: pointer;
+  justify-content: end;
+  display: flex;
+  align-items: end;
+  margin-left: 32em;
+}
+
 .connect {
   font-style: normal;
   font-weight: 400px;
@@ -183,6 +193,7 @@ img {
 
   .icon-text {
     font-size: 14px;
+    
   }
 
   .log {
