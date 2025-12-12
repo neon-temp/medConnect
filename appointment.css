@@ -102,6 +102,7 @@ body {
   border-radius: 10px;
   border: 1px solid #2e80fa;
   color: #f9f9f9;
+  cursor: pointer;
 }
 .btn2 {
   width: 72px;
@@ -110,4 +111,82 @@ body {
   border-radius: 10px;
   border: 1px solid #e1e7ef;
   color: #1d283a;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .icon {
+    margin: 30px 20px;
+    justify-content: flex-start;
+  }
+
+  .form {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 40px auto;
+  }
+
+  #name,
+  #date,
+  #time,
+  #doctor,
+  .Department,
+  #textarea {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .button {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 12px;
+  }
+
+  .btn,
+  .btn2 {
+    width: 100%;
+  }
+}
+
+/* ========================================= */
+/*            MOBILE RESPONSIVE             */
+/* ========================================= */
+
+@media (max-width: 480px) {
+
+  .icon-text {
+    font-size: 14px;
+  }
+
+  .icon-arrow {
+    font-size: 18px;
+  }
+
+  .form {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .book {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .btn,
+  .btn2 {
+    font-size: 15px;
+    padding: 12px;
+  }
 }
