@@ -622,6 +622,8 @@ button {
   color: #64748b;
 }
 
+
+
 @media (max-width: 768px) {
   .head {
     padding: 15px 5%;
@@ -766,6 +768,75 @@ button {
   }
 }
 
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .head {
+    padding: 20px 30px;
+  }
+
+  .nav-bar a {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+
+  .main {
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+  }
+
+  .left-section {
+    width: 55%;
+  }
+
+  .left-section h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .left-section .text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .pic {
+    width: 45%;
+    margin: 0;
+  }
+
+  .about-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .about-cards .card {
+    width: 45%;
+  }
+
+  #omo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #omo .get-started-logo {
+    width: 45%;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer-text {
+    gap: 60px;
+    padding-right: 0;
+  }
+}
+
+
 #splash-screen {
   position: fixed;
   top: 0;
@@ -795,3 +866,5 @@ button {
     visibility: hidden;
   }
 }
+
+
