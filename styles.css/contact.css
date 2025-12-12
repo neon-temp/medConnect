@@ -145,10 +145,15 @@ label {
   cursor: pointer;
 }
 
-.button:hover{
-  color: #2e80fa;
-  background-color: #e1e7ef;
+.button a{
+  text-decoration: none;
+  color: #f9f9f9;
 }
+
+.button:hover{
+  background-color: #8898ae;
+}
+
 .but {
   display: flex;
   justify-content: end;
@@ -257,4 +262,90 @@ label {
 .footer-omo p {
   font-size: 14px;
   color: #64748b;
+}
+
+
+@media (max-width: 900px) {
+
+  .box {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .text-box {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+ 
+  .form-box {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+ 
+  .bot {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .bot1 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #name {
+    width: 100%;
+  }
+
+  #Email {
+    width: 100%;
+  }
+
+  #textarea {
+    width: 100%;
+  }
+
+  #era {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  
+  .but {
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-text {
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 0;
+    text-align: center;
+  }
 }

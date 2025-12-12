@@ -179,8 +179,10 @@ header {
   font-style: medium;
   line-height: 20px;
   color: #1d283a;
+  cursor: pointer;
 }
 .btn2 {
+  cursor: pointer;
   background-color: #ffffff;
   padding: 10px 16px 10px 16px;
   border-radius: 10px;
