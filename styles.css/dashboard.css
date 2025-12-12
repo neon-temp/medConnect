@@ -431,6 +431,7 @@ header {
   .three,
   .wrote,
   .write {
+    
     width: 95%;
     height: auto;
     padding: 10px;
@@ -447,7 +448,7 @@ header {
   }
 
   .iconic {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0px;
     align-items: end;
   }
